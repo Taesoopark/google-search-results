@@ -1,0 +1,22 @@
+#double-container {
+    display: grid;
+    grid-template-columns: 180px 1.4fr 50px 1.5fr;
+}
+
+#search-results-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#results-speed {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: arial;
+    color:rgba(0, 0, 0, 0.8);
+}

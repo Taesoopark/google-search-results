@@ -97,6 +97,7 @@ body {
 .links {
     display: flex;
     align-items: center;
+    padding-left: 7px;
     padding-right: 20px;
     padding-bottom: 15px;
     font-weight: 500;
@@ -105,14 +106,20 @@ body {
 }
 
 .links:active {
-    padding-bottom: 13px;
-    border-bottom: 2px solid rgb(31, 106, 245);
+    padding-bottom: 12px;
+    border-bottom: 3px solid rgb(31, 106, 245);
+    color: rgb(31, 106, 245);
+}
+
+.aa {
+    padding-bottom: 12px;
+    border-bottom: 3px solid rgb(31, 106, 245);
     color: rgb(31, 106, 245);
 }
 
 #settings-tools {
     display: flex;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 .st {
