@@ -1,3 +1,120 @@
 body {
-    margin: 10px 15px;
+    margin: 25px 0 0 0;
+    font-family: 'Open sans';
+}
+
+#navigation {
+    height: 110px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#nav-upper {
+    display: flex;
+    align-items: center;
+}
+
+#google-logo {
+    width: 92px;
+    height: 31px;
+    padding: 5px 40px 0 25px;
+}
+
+#search-box {
+    height: 45px;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+#search-box:hover {
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.25)
+}
+
+#search-bar {
+    font-size: 17px;
+    padding-left: 30px;
+    width: 600px;
+    height: 97%;
+    border: none;
+    border-radius: 30px;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+.search-icons {
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+    padding-left: 8px;
+}
+
+.clear-icon {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#personal-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: flex-end;
+}
+
+.personal-hover {
+    margin-right: 25px;
+}
+
+#menu {
+    height: 25px;
+    width: 25px;
+}
+
+#picon {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+/* --------------- Navigation Bar Lower ----------------- */
+
+#nav-lower {
+    font-size: 14px;
+    height: 65px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 180px;
+}
+
+.menu-icons {
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.6)
+}
+
+.links:active {
+    padding-bottom: 13px;
+    border-bottom: 2px solid rgb(31, 106, 245);
+    color: rgb(31, 106, 245);
+}
+
+#settings-tools {
+    display: flex;
+    padding-left: 60px;
+}
+
+.st {
+    padding-left: 15px;
 }
