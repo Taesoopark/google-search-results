@@ -1,0 +1,15 @@
+.rest-of-page {
+    margin: 25px 0;
+    width: 580px;
+}
+
+#ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.star {
+    height: 12px;
+    width: 15px;
+}

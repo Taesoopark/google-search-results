@@ -1,0 +1,37 @@
+#people-also-ask {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 610px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.final-question {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+}
+
+.angle-down {
+    height: 20px;
+    width: 20px;
+}
+
+#pa-main {
+    color:rgb(32, 33, 36);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pa-h5 {
+    margin: 0;
+    color:rgb(50, 50, 50);
+    font-size: 15px;
+    font-weight: 600;
+}
