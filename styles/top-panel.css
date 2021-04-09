@@ -1,0 +1,178 @@
+#extra-info-top {
+    margin: 45px 165px 45px 95px;
+    width: 500px;
+    height: 650px;
+}
+
+#general-info {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    height: 600px;
+}
+
+#top-logo {
+    margin: 30px 0 40px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.top-h1 {
+    margin: 0;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.top-h5 {
+    color: rgba(0, 0, 0, 0.6);
+    margin: 5px 0 0 0;
+}
+
+#share-button {
+    padding-top: 5px;
+    align-self: flex-start;
+}
+
+#address {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.add-img {
+    height: 25px;
+    width: 25px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.add-link {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+}
+
+.add-link:hover {
+    text-decoration: underline;
+}
+
+#founded {
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.founded-p {
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 7px;
+}
+
+#disclaimer {
+    margin-right: 15px;
+    font-size: 11.5px;
+    text-align: right;
+}
+
+#disclaimer-id {
+    color:rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#profiles {
+    margin-left: 15px;
+}
+
+.profiles-twitter {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-h5 {
+    margin: 30px 0 10px 0;
+    color:rgb(32, 33, 36);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.twitter-image {
+    padding-left: 8px;
+}
+
+.profile-link {
+    margin: 0;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+}
+
+.profile-link:hover {
+    text-decoration: underline;
+}
+
+#similar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+#search-for {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#view10 {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#view10:hover {
+    text-decoration: underline;
+}
+
+#more {
+    display: flex;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option-image {
+    height: 50px;
+    width: 70px;
+}
+
+.option-h5 {
+    margin: 0;
+    color:rgb(32, 33, 36);
+    font-weight: 500;
+}
+
+#codecademy {
+    padding-left: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+#github {
+    height: 50px;
+    width: 50px;
+}
+
+#khan {
+    padding-left: 10px;
+    height: 50px;
+    width: 50px;
+}
